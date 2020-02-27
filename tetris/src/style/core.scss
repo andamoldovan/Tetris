@@ -1,0 +1,54 @@
+.basic-building-block{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.two-row-shapes-row {
+  max-width: 200px;
+  max-height: 100px;
+  position: relative;
+}
+
+.two-row-shapes-column {
+  max-width: 100px;
+  max-height: 200px;
+  position: relative;
+}
+
+.j-shape-first-form > div.basic-building-block{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.j-shape-second-form{
+  > div.i-shape-main-class{
+    margin-left: 50px;
+  }
+  > div.basic-building-block{
+    position: absolute;
+    margin-top: 150px;
+  }
+}
+
+.j-shape-third-form {
+  > div.i-shape-main-class{
+    position: absolute;
+    margin-top:50px;
+  }
+}
+
+.j-shape-forth-form{
+  > div.basic-building-block{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+}
+
+.o-shape-main-class {
+  max-width: 100px;
+  max-height: 100px;
+}
+
