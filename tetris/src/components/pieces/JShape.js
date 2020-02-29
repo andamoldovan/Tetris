@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Box} from 'grommet';
-import IShape from "./IShape";
-import Block from "./Block";
+import ThreePieceShape from '../component_constructs/ThreePieceShape';
+import Block from "../component_constructs/Block";
 
 const JShape = () => {
 
@@ -13,14 +13,11 @@ const JShape = () => {
         const random = Math.floor(Math.random() * possibleDirections.length);
         setPosition(possibleDirections[random]);
         (random === 0 || random === 2) ? setIShapePosition('row') : setIShapePosition('column');
-        console.log("RANDOM");
-        console.log(random);
-        console.log((random === 0 || random === 2));
     }, []);
 
     return(
         <Box alignContent={"end"} fill={'true'} className={'two-row-shapes-' + iShapePosition + ' ' + position}>
-            <IShape propDirection={iShapePosition}/>
+            <ThreePieceShape propDirection={iShapePosition}/>
             <Block />
         </Box>
     );

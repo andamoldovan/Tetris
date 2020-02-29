@@ -19,21 +19,21 @@
 .j-shape-first-form > div.basic-building-block{
     position: absolute;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .j-shape-second-form{
-  > div.i-shape-main-class{
+  > div.three-piece-shape-main-class{
     margin-left: 50px;
   }
   > div.basic-building-block{
     position: absolute;
-    margin-top: 150px;
+    margin-top: 100px;
   }
 }
 
 .j-shape-third-form {
-  > div.i-shape-main-class{
+  > div.three-piece-shape-main-class{
     position: absolute;
     margin-top:50px;
   }
@@ -42,7 +42,6 @@
 .j-shape-forth-form{
   > div.basic-building-block{
     position: absolute;
-    margin-top: 150px;
     margin-left: 50px;
   }
 }
@@ -52,3 +51,28 @@
   max-height: 100px;
 }
 
+.l-shape-third-form {
+  > div.three-piece-shape-main-class {
+    position: absolute;
+    margin-top: 50px;
+  }
+
+  > div.basic-building-block {
+    margin-left: 100px;
+  }
+}
+
+.l-shape-second-form {
+  > div.three-piece-shape-main-class {
+    position: absolute;
+    margin-left: 50px;
+  }
+}
+
+.l-shape-forth-form {
+  > div.basic-building-block {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+}

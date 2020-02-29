@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import Block from '../component_constructs/Block';
 import {Box} from 'grommet';
+import Block from "./Block";
 
-const IShape = ({propDirection}) => {
+const ThreePieceShape = ({propDirection}) => {
 
     const possibleDirections = ['row', 'column'];
     const [direction, setDirection] = useState();
@@ -21,8 +21,7 @@ const IShape = ({propDirection}) => {
     },[propDirection]);
 
     return(
-        <Box className={'i-shape-main-class'} direction={direction}>
-            <Block />
+        <Box className={'three-piece-shape-main-class'} direction={direction}>
             <Block />
             <Block />
             <Block />
@@ -30,4 +29,4 @@ const IShape = ({propDirection}) => {
     );
 };
 
-export default IShape;
+export default ThreePieceShape;
