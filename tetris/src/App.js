@@ -6,11 +6,15 @@ import IShape from './components/pieces/IShape';
 import JShape from "./components/pieces/JShape";
 import OShape from "./components/pieces/OShape";
 import LShape from './components/pieces/LShape';
+import TShape from "./components/pieces/TShape";
+import TwoPieceShape from "./components/component_constructs/TwoPieceShape";
+import ZShape from "./components/pieces/ZShape";
+import SShape from "./components/pieces/SShape";
 
 function App() {
   return (
     <div className="App">
-      <JShape />
+      <SShape />
     </div>
   );
 }

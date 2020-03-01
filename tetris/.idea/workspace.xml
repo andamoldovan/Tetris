@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="615cb1a4-8314-4692-a150-bdffbc7838c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/component_constructs/ThreePieceShape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pieces/TShape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/component_constructs/TwoPieceShape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pieces/SShape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pieces/ZShape.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pieces/Block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/component_constructs/Block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pieces/IShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/IShape.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pieces/JShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/JShape.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pieces/LShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/LShape.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pieces/OShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/OShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pieces/TShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/TShape.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/core.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +81,9 @@
       <updated>1565520272519</updated>
       <workItem from="1565520276944" duration="307000" />
       <workItem from="1582358141783" duration="10407000" />
-      <workItem from="1582991499380" duration="1962000" />
+      <workItem from="1582991499380" duration="2087000" />
+      <workItem from="1582994186994" duration="18000" />
+      <workItem from="1583064925311" duration="2941000" />
     </task>
     <task id="LOCAL-00001" summary="Partial shapes commit">
       <created>1582832559207</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582832559207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Corrected existing forms">
+      <created>1582994129447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582994129447</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,42 +107,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Partial shapes commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partial shapes commit" />
+    <MESSAGE value="Corrected existing forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected existing forms" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582443844604">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1582443844604" />
-    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1582832558819">
+    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1582994129260">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1582832558819" />
+    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1582994129260" />
     <state x="437" y="59" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1582358162314" />
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1582832689330">
+    <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1583065238917">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1582832689330" />
-    <state width="1771" height="299" key="GridCell.Tab.0.center" timestamp="1582832689329">
+    <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1583065238917" />
+    <state width="1771" height="299" key="GridCell.Tab.0.center" timestamp="1583065238916">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1582832689329" />
-    <state width="1771" height="299" key="GridCell.Tab.0.left" timestamp="1582832689329">
+    <state width="1771" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1583065238916" />
+    <state width="1771" height="299" key="GridCell.Tab.0.left" timestamp="1583065238915">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1582832689329" />
-    <state width="1771" height="299" key="GridCell.Tab.0.right" timestamp="1582832689330">
+    <state width="1771" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1583065238915" />
+    <state width="1771" height="299" key="GridCell.Tab.0.right" timestamp="1583065238916">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1582832689330" />
+    <state width="1771" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1583065238916" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1582359366020">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1582359366020" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1582832564839">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1582994132111">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1582832564839" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1582994132111" />
     <state x="678" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582358189288">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

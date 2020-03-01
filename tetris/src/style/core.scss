@@ -5,7 +5,7 @@
 }
 
 .two-row-shapes-row {
-  max-width: 200px;
+  max-width: 150px;
   max-height: 100px;
   position: relative;
 }
@@ -74,5 +74,77 @@
     position: absolute;
     margin-left: 50px;
     margin-top: 100px;
+  }
+}
+
+.t-shape-first-form {
+  > div.basic-building-block {
+    margin-left: 50px;
+  }
+}
+
+.t-shape-second-form {
+  > div.three-piece-shape-main-class {
+    position: absolute;
+    margin-left: 50px;
+  }
+
+  > div.basic-building-block {
+    margin-top: 50px;
+  }
+}
+
+.t-shape-third-form {
+  > div.three-piece-shape-main-class{
+    position: absolute;
+    margin-top: 50px;
+  }
+
+  > div.basic-building-block {
+    margin-left: 50px;
+  }
+}
+
+.t-shape-forth-form {
+  > div.basic-building-block {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+}
+
+.z-shape-first-form {
+  > div.two-piece-shape-main-class.second-block {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+
+.z-shape-second-form {
+  > div.two-piece-shape-main-class.first-block {
+    margin-top: 50px;
+  }
+  > div.two-piece-shape-main-class.second-block {
+    position: absolute;
+    margin-left: 50px;
+  }
+}
+
+.s-shape-first-form {
+  > div.two-piece-shape-main-class.first-block {
+    margin-left: 50px;
+  }
+  > div.two-piece-shape-main-class.second-block {
+    position: absolute;
+    margin-top: 50px;
+  }
+}
+
+.s-shape-second-form {
+  > div.two-piece-shape-main-class.second-block {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
   }
 }
