@@ -1,6 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import Block from '../component_constructs/Block';
 import {Box} from 'grommet';
+import {iShapeColor, iShapeColorBorder} from "../../constants";
+
+const style = {
+    background: iShapeColor,
+    border: '1px solid ' + iShapeColorBorder,
+}
 
 const IShape = ({propDirection}) => {
 
@@ -22,10 +28,10 @@ const IShape = ({propDirection}) => {
 
     return(
         <Box className={'i-shape-main-class'} direction={direction}>
-            <Block />
-            <Block />
-            <Block />
-            <Block />
+            <Block style={style}/>
+            <Block style={style}/>
+            <Block style={style}/>
+            <Block style={style}/>
         </Box>
     );
 };

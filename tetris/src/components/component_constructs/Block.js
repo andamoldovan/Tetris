@@ -2,11 +2,11 @@ import React from 'react';
 import {Box} from 'grommet';
 import '../../style/core.scss'
 
-const Block = () => {
+const Block = ({style}) => {
 
     return (
-        <Box className={'basic-building-block'}>
-            jjjdja
+        <Box className={'basic-building-block'} style={style}>
+
         </Box>
     )
 };

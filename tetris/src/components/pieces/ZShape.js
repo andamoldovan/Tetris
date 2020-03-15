@@ -1,6 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import TwoPieceShape from "../component_constructs/TwoPieceShape";
 import {Box} from 'grommet';
+import {zShapeColor, zShapeColorBorder} from "../../constants";
+
+const style = {
+    background: zShapeColor,
+    border: '1px solid ' + zShapeColorBorder
+};
+
 
 const ZShape = () => {
     // z and s only have two DIFFERENT rotations
@@ -16,8 +23,8 @@ const ZShape = () => {
 
     return(
         <Box className={position}>
-            <TwoPieceShape propDirection={twoShapeDirection} additionalClass={'first-block'}/>
-            <TwoPieceShape propDirection={twoShapeDirection} additionalClass={'second-block'}/>
+            <TwoPieceShape propDirection={twoShapeDirection} additionalClass={'first-block'} style={style}/>
+            <TwoPieceShape propDirection={twoShapeDirection} additionalClass={'second-block'}  style={style}/>
         </Box>
     );
 };

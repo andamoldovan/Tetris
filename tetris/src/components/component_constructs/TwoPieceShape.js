@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Box} from "grommet";
 import Block from "./Block";
 
-const TwoPieceShape = ({propDirection, additionalClass}) => {
+const TwoPieceShape = ({propDirection, additionalClass, style}) => {
 
     const possibleDirections = ['row', 'column'];
     const [direction, setDirection] = useState();
@@ -23,8 +23,8 @@ const TwoPieceShape = ({propDirection, additionalClass}) => {
     let externalClassName = (additionalClass) ? additionalClass : '';
     return(
         <Box className={'two-piece-shape-main-class' + ' ' + additionalClass} direction={direction}>
-            <Block />
-            <Block />
+            <Block style={style}/>
+            <Block style={style}/>
         </Box>
     );
 };

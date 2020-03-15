@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Box} from 'grommet';
 import Block from "./Block";
 
-const ThreePieceShape = ({propDirection}) => {
+const ThreePieceShape = ({propDirection, style}) => {
 
     const possibleDirections = ['row', 'column'];
     const [direction, setDirection] = useState();
@@ -22,9 +22,9 @@ const ThreePieceShape = ({propDirection}) => {
 
     return(
         <Box className={'three-piece-shape-main-class'} direction={direction}>
-            <Block />
-            <Block />
-            <Block />
+            <Block style={style}/>
+            <Block style={style}/>
+            <Block style={style}/>
         </Box>
     );
 };

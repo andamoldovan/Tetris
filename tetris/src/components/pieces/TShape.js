@@ -2,6 +2,12 @@ import React, {useEffect, useState} from 'react';
 import {Box} from 'grommet';
 import ThreePieceShape from "../component_constructs/ThreePieceShape";
 import Block from "../component_constructs/Block";
+import {tShapeColor, tShapeColorBorder} from "../../constants";
+
+const style = {
+    background: tShapeColor,
+    border: '1px solid ' + tShapeColorBorder
+};
 
 const TShape = () => {
 
@@ -17,8 +23,8 @@ const TShape = () => {
 
     return(
         <Box alignContent={"end"} fill={'true'} className={'two-row-shapes-' + iShapePosition + ' ' + position}>
-            <ThreePieceShape propDirection={iShapePosition}/>
-            <Block />
+            <ThreePieceShape propDirection={iShapePosition} style={style}/>
+            <Block style={style}/>
         </Box>
     );
 };

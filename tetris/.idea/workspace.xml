@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="615cb1a4-8314-4692-a150-bdffbc7838c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
+    <list default="true" id="615cb1a4-8314-4692-a150-bdffbc7838c2" name="Default Changelist" comment="Basic Redux store connection">
+      <change afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/board/Level.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/board/Level.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/board/DropScren.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/board/DropScren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/component_constructs/Block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/component_constructs/Block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/component_constructs/ThreePieceShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/component_constructs/ThreePieceShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/component_constructs/TwoPieceShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/component_constructs/TwoPieceShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pieces/IShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/IShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pieces/JShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/JShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pieces/LShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/LShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pieces/OShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/OShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pieces/SShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/SShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pieces/TShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/TShape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pieces/ZShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/ZShape.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +94,7 @@
       <workItem from="1583749304520" duration="186000" />
       <workItem from="1583779861476" duration="182000" />
       <workItem from="1584201524157" duration="671000" />
-      <workItem from="1584275000280" duration="1880000" />
+      <workItem from="1584275000280" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="Partial shapes commit">
       <created>1582832559207</created>
@@ -115,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584275734038</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic Redux store connection">
+      <created>1584277646932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584277646932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,17 +142,18 @@
     <MESSAGE value="Corrected existing forms" />
     <MESSAGE value="Finalize main pieces shapes and rotations" />
     <MESSAGE value="Main screen, level and goal addons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main screen, level and goal addons" />
+    <MESSAGE value="Basic Redux store connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Redux store connection" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582443844604">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1582443844604" />
-    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1584275733854">
+    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1584279961756">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1584275733854" />
+    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1584279961756" />
     <state x="437" y="59" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1582358162314" />
     <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1584256680598">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -160,10 +177,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1582359366020" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1584275736228">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1584277648429">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1584275736228" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1584277648429" />
     <state x="678" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582358189288">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -172,9 +189,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="544" y="171" width="703" height="777" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1584275083544" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1582745668052">
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1584280003940">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1582745668052" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1584280003940" />
   </component>
 </project>
