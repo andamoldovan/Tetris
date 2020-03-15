@@ -148,3 +148,37 @@
     margin-top: 50px;
   }
 }
+
+div#main-drop-screen-box {
+  //background: #328ba8;
+  background: #324ea8;
+  position: fixed;
+  height: 97vh;
+  width: 500px;
+  margin-left: 35%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+div#main-screen-box {
+  width: 100vw;
+  height: 100vh;
+  background: #5032a8;
+}
+
+div#goal-main-box {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10%;
+  margin-left: 130px;
+}
+
+.goal-heading{
+  margin: 0;
+}
+
+div#main-level-box {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 40%;
+}

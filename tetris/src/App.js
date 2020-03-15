@@ -10,11 +10,13 @@ import TShape from "./components/pieces/TShape";
 import TwoPieceShape from "./components/component_constructs/TwoPieceShape";
 import ZShape from "./components/pieces/ZShape";
 import SShape from "./components/pieces/SShape";
+import DropScreen from "./components/board/DropScren";
+import MainScreen from "./components/board/MainScreen";
 
 function App() {
   return (
     <div className="App">
-      <SShape />
+      <MainScreen />
     </div>
   );
 }

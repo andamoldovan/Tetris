@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="615cb1a4-8314-4692-a150-bdffbc7838c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/component_constructs/TwoPieceShape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pieces/SShape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pieces/ZShape.js" afterDir="false" />
+    <list default="true" id="615cb1a4-8314-4692-a150-bdffbc7838c2" name="Default Changelist" comment="Finalize main pieces shapes and rotations">
+      <change afterPath="$PROJECT_DIR$/src/components/board/DropScren.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/board/Goal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/board/Level.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/board/MainScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pieces/TShape.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pieces/TShape.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/core.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,13 @@
       <workItem from="1582358141783" duration="10407000" />
       <workItem from="1582991499380" duration="2087000" />
       <workItem from="1582994186994" duration="18000" />
-      <workItem from="1583064925311" duration="2941000" />
+      <workItem from="1583064925311" duration="3351000" />
+      <workItem from="1583586992378" duration="1743000" />
+      <workItem from="1583748297669" duration="71000" />
+      <workItem from="1583749304520" duration="186000" />
+      <workItem from="1583779861476" duration="182000" />
+      <workItem from="1584201524157" duration="671000" />
+      <workItem from="1584275000280" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="Partial shapes commit">
       <created>1582832559207</created>
@@ -99,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582994129447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finalize main pieces shapes and rotations">
+      <created>1583068800424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583068800424</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,46 +120,53 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Partial shapes commit" />
     <MESSAGE value="Corrected existing forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected existing forms" />
+    <MESSAGE value="Finalize main pieces shapes and rotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalize main pieces shapes and rotations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582443844604">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1582443844604" />
-    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1582994129260">
+    <state x="437" y="39" key="CommitChangelistDialog2" timestamp="1583748362694">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1582994129260" />
+    <state x="437" y="39" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1583748362694" />
     <state x="437" y="59" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1582358162314" />
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1583065238917">
+    <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1584256680598">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1583065238917" />
-    <state width="1771" height="299" key="GridCell.Tab.0.center" timestamp="1583065238916">
+    <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1584256680598" />
+    <state width="1771" height="299" key="GridCell.Tab.0.center" timestamp="1584256680597">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1583065238916" />
-    <state width="1771" height="299" key="GridCell.Tab.0.left" timestamp="1583065238915">
+    <state width="1771" height="299" key="GridCell.Tab.0.center/0.0.1792.1065@0.0.1792.1120" timestamp="1583780060193" />
+    <state width="1771" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1584256680597" />
+    <state width="1771" height="299" key="GridCell.Tab.0.left" timestamp="1584256680596">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1583065238915" />
-    <state width="1771" height="299" key="GridCell.Tab.0.right" timestamp="1583065238916">
+    <state width="1771" height="299" key="GridCell.Tab.0.left/0.0.1792.1065@0.0.1792.1065" timestamp="1583780060178" />
+    <state width="1771" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1584256680596" />
+    <state width="1771" height="299" key="GridCell.Tab.0.right" timestamp="1584256680597">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1583065238916" />
+    <state width="1771" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1584256680597" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1582359366020">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1582359366020" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1582994132111">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1583068804312">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1582994132111" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1583068804312" />
     <state x="678" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582358189288">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="678" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1582358189288" />
+    <state x="544" y="171" width="703" height="777" key="find.popup" timestamp="1584275083544">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="544" y="171" width="703" height="777" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1584275083544" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1582745668052">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
